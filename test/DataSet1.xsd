@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="projectConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="projectConnectionString (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.test.Properties.Settings.GlobalReference.Default.projectConnectionString" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_UserDSName="DataSet1" msprop:Generator_DataSetName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="proAD_db" msprop:Generator_RowEvHandlerName="proAD_dbRowChangeEventHandler" msprop:Generator_RowDeletedName="proAD_dbRowDeleted" msprop:Generator_RowDeletingName="proAD_dbRowDeleting" msprop:Generator_RowEvArgName="proAD_dbRowChangeEvent" msprop:Generator_TablePropName="proAD_db" msprop:Generator_RowChangedName="proAD_dbRowChanged" msprop:Generator_RowChangingName="proAD_dbRowChanging" msprop:Generator_TableClassName="proAD_dbDataTable" msprop:Generator_RowClassName="proAD_dbRow" msprop:Generator_TableVarName="tableproAD_db" msprop:Generator_UserTableName="proAD_db">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="name_of" msprop:Generator_ColumnPropNameInRow="name_of" msprop:Generator_ColumnPropNameInTable="name_ofColumn" msprop:Generator_ColumnVarNameInTable="columnname_of" msprop:Generator_UserColumnName="name_of">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="type_of" msprop:Generator_ColumnPropNameInRow="type_of" msprop:Generator_ColumnPropNameInTable="type_ofColumn" msprop:Generator_ColumnVarNameInTable="columntype_of" msprop:Generator_UserColumnName="type_of">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="date_admission" msprop:Generator_ColumnPropNameInRow="date_admission" msprop:Generator_ColumnPropNameInTable="date_admissionColumn" msprop:Generator_ColumnVarNameInTable="columndate_admission" msprop:Generator_UserColumnName="date_admission" type="xs:dateTime" />
+              <xs:element name="date_term" msprop:Generator_ColumnPropNameInRow="date_term" msprop:Generator_ColumnPropNameInTable="date_termColumn" msprop:Generator_ColumnVarNameInTable="columndate_term" msprop:Generator_UserColumnName="date_term" type="xs:dateTime" />
+              <xs:element name="count_of" msprop:Generator_ColumnPropNameInRow="count_of" msprop:Generator_ColumnPropNameInTable="count_ofColumn" msprop:Generator_ColumnVarNameInTable="columncount_of" msprop:Generator_UserColumnName="count_of" type="xs:int" />
+              <xs:element name="postavka" msprop:Generator_ColumnPropNameInRow="postavka" msprop:Generator_ColumnPropNameInTable="postavkaColumn" msprop:Generator_ColumnVarNameInTable="columnpostavka" msprop:Generator_UserColumnName="postavka">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="price" msprop:Generator_ColumnPropNameInRow="price" msprop:Generator_ColumnPropNameInTable="priceColumn" msprop:Generator_ColumnVarNameInTable="columnprice" msprop:Generator_UserColumnName="price" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
